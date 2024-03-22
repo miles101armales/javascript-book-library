@@ -1,0 +1,24 @@
+{
+  "name": "javascript-book-library",
+  "version": "1.0.0",
+  "description": "FullStack One-Page Web Application on JavaScript with navigation, API connect, Favorite items function",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miles101armales/javascript-book-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^8.57.0",
+    "on-change": "^5.0.1",
+    "rollup": "^4.13.0",
+    "rollup-plugin-import-css": "^3.5.0"
+  }
+}
